@@ -1,55 +1,89 @@
-@media  (max-width:900px) {
-    
-   .home{
-    background-color: red;
-   }
-}
 
-
-
-
-.home_heading{
-    display:flex;
+.home_heading {
+    display: flex;
     justify-content: space-between;
 }
-.hero_image{
-    width:30rem;
-    height:30rem;
-    border-radius:3rem;
-}
-.home_heading_banner{
-     
-}
-p{
-    font-family:Montserrat;
-}
-.home_cards{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top:5rem;
-    margin-bottom:5rem;
-}
-.home_mainsection_first{
-   display:grid;
-   padding:4rem;
-   grid-template-columns: repeat(2,1fr);
-   grid-template-rows:auto;
-   background-color:lightgray;
-}
-.home_mainsection_second{
-    display:grid;
-    padding:4rem;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows:auto;
-    background-color:whitesmoke;
+
+.hero_image,
+.home_mainsection_image {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 3rem;
 }
 
-.home_mainsection_image{
-    width:30rem;
-    height:30rem;
-    border-radius:5rem;
+.home_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
-.home_reviews_card{
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
+
+.home_mainsection_first,
+.home_mainsection_second {
+    display: grid;
+    padding: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.home_reviews_card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* Media query for screens with a maximum width of 900px */
+
+@media (max-width: 900px) {
+    .home_heading {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero_image,
+    .home_mainsection_image {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .home_cards {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home_mainsection_first,
+    .home_mainsection_second {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem;
+    }
+}
+
+/* Media query for screens with a maximum width of 600px (typical mobile screens) */
+
+@media (max-width: 600px) {
+    .hero_image,
+    .home_mainsection_image {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .home_cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+
+    .home_mainsection_first,
+    .home_mainsection_second {
+        padding: 1rem;
+    }
+
+    /* Add margin to the paragraphs */
+    p {
+        margin: 0.5rem 0;
+    }
 }

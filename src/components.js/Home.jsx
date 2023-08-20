@@ -1,5 +1,5 @@
 import React from 'react'
-import {heroImage,heroImage1} from "../assets.js/heroImage"
+import {heroImage1} from "../assets.js/heroImage"
 import Footer from "./footer"
 import "./Home.css"
 
@@ -11,7 +11,7 @@ function Home() {
     <div className="home">
         <div className="home_heading">
             <div className="home_heading_banner">
-            <h6 >ALLIGATORS</h6>
+            <p style={{color:"grey",fontSize:"0.5rem",textAlign:"justify",opacity:'0'}}>ALLIGATORS</p>
            <h1 style={{fontSize:"2rem"}}>To Molest Alligators or Not. That is the Question! That is Why Your Here.</h1>
            <p style={{fontSize:"1.5rem"}}>To parts of me divided in equal strength, one want's to get down
             and dirty with alligators. <p>The other would prefer the sweet scent of 

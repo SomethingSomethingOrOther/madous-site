@@ -39,8 +39,16 @@ img{
     margin-left:0.5rem;
     background-color:aqua;
     border-radius:0.5rem;
-    
 }
+.link1:hover{
+  text-decoration: underline;
+}
+.link2:hover{
+    text-decoration: underline;
+  }
+.link3:hover{
+    text-decoration: underline;
+  }
 .outer_mobile_menu_div{
     display:none;
     position:relative;
