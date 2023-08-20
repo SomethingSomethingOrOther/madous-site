@@ -1,0 +1,55 @@
+@media  (max-width:900px) {
+    
+   .home{
+    background-color: red;
+   }
+}
+
+
+
+
+.home_heading{
+    display:flex;
+    justify-content: space-between;
+}
+.hero_image{
+    width:30rem;
+    height:30rem;
+    border-radius:3rem;
+}
+.home_heading_banner{
+     
+}
+p{
+    font-family:Montserrat;
+}
+.home_cards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:5rem;
+    margin-bottom:5rem;
+}
+.home_mainsection_first{
+   display:grid;
+   padding:4rem;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows:auto;
+   background-color:lightgray;
+}
+.home_mainsection_second{
+    display:grid;
+    padding:4rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:auto;
+    background-color:whitesmoke;
+}
+
+.home_mainsection_image{
+    width:30rem;
+    height:30rem;
+    border-radius:5rem;
+}
+.home_reviews_card{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}

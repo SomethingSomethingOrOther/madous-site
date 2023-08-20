@@ -1,0 +1,18 @@
+.footer{
+    display:flex;
+    justify-content:center;
+    padding:2rem;
+}
+.footer_links{
+  cursor:pointer;
+   margin-left:10rem;
+}
+.footer_link1:hover{
+    text-decoration: underline;
+}
+.footer_link2:hover{
+    text-decoration: underline;
+}
+.footer_link3:hover{
+    text-decoration: underline;
+}
