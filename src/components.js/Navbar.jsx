@@ -17,7 +17,6 @@ function Navbar() {
         <div className="navbar_links">
         <Link className="links link1"to="/">Home</Link>
         <Link className="links link2"to="/about">About Me</Link>
-        <Link className="links link3"to="/contact">Contact Me</Link>
           </div>
           <div className="outer_mobile_menu_div">
             <img 
